@@ -1,4 +1,4 @@
 # Portfolio Website
 
-<a href="sehajdeep-singh.netlify.app">sehajdeep-singh.netlify.app</a>
+<a href="https://sehajdeep-singh.netlify.app">sehajdeep-singh.netlify.app</a>
  
