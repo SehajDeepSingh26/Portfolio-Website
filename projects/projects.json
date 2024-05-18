@@ -1,9 +1,9 @@
 [
   {
     "name": "3D TShirt Designer Application",
-    "desc": "Explore our 3D T-shirt design platform, crafted with ReactJs and ThreeJs, to create your custom apparel in a dynamic, interactive environment.",
+    "desc": "Explore our 3D T-shirt design platform, crafted with ReactJs, ThreeJs and TailwindCSS, to create your custom apparel in a dynamic, interactive environment.",
     "image": "tshirtDesign",
-    "category": "ReactJs",
+    "category": "FullStack",
     "links": {
       "view": "https://3-d-t-shirt-design.vercel.app/",
       "code": "https://github.com/SehajDeepSingh26/3-D-T-shirt-Design"

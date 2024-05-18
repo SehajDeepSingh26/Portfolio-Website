@@ -321,6 +321,9 @@ header .navbar ul li a:hover {
 .social-icons a.instagram:hover {
   background-color: #ee00da;
 }
+.social-icons a.leetcode:hover {
+  background-color: #8e5203;
+}
 /* social icons end */
 
 /* hero media queries starts*/
