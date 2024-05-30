@@ -464,3 +464,7 @@ header .navbar ul li a:hover{
   top: calc(100% - 12rem);
 }
 /* scroll top ends */
+
+.footer .box-container .boxi{
+    margin-left: 300px;
+  }
