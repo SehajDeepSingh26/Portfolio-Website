@@ -46,7 +46,7 @@ function showProjects(projects) {
     projects.forEach(project => {
         projectsHTML += `
         <div class="grid-item ${project.category}">
-        <div class="box tilt" style="width: 380px; margin: 2rem">
+        <div class="box tilt" style="width: 360px; margin: 1rem">
       <img draggable="false" src="/assets/images/projects/${project.image}.png" alt="project" />
       <div class="content">
         <div class="tag">
