@@ -1,5 +1,15 @@
 [
   {
+    "name": "BrahmGyaani Solutions",
+    "desc": "Explore BrahmGyaani Solutions to unlock a world of high-quality, personalized education that empowers you to achieve your academic and career goals.",
+    "image": "BrahmGyaani",
+    "category": "FullStack",
+    "links": {
+      "view": "https://brahmgyaani.netlify.app/",
+      "code": "https://github.com/SehajDeepSingh26/brahmGyaani"
+    }
+  },
+  {
     "name": "3D TShirt Designer Application",
     "desc": "Explore our 3D T-shirt design platform, crafted with ReactJs, ThreeJs and TailwindCSS, to create your custom apparel in a dynamic, interactive environment.",
     "image": "tshirtDesign",
@@ -58,6 +68,16 @@
     "links": {
       "view": "https://paint-Web.netlify.app",
       "code": "https://github.com/sehajdeepsingh26"
+    }
+  },
+  {
+    "name": "Miusify",
+    "desc": "Developed a spotify clone",
+    "image": "SpotifyClone",
+    "category": "WebDev",
+    "links": {
+      "view": "https://miusify.netlify.app/",
+      "code": "https://github.com/sehajdeepsingh26/spotify-clone"
     }
   }
   
