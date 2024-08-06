@@ -10,16 +10,6 @@
     }
   },
   {
-    "name": "3D TShirt Designer Application",
-    "desc": "Explore our 3D T-shirt design platform, crafted with ReactJs, ThreeJs and TailwindCSS, to create your custom apparel in a dynamic, interactive environment.",
-    "image": "tshirtDesign",
-    "category": "FullStack",
-    "links": {
-      "view": "https://3-d-t-shirt-design.vercel.app/",
-      "code": "https://github.com/SehajDeepSingh26/3-D-T-shirt-Design"
-    }
-  },
-  {
     "name": "ACM-BVP Website",
     "desc": "Welcome to the ACM-BVP Society website, your hub for event summaries and team insights, connecting you with our vibrant community.",
     "image": "acmbvp",
@@ -39,16 +29,7 @@
       "code": "https://github.com/SehajDeepSingh26/Whack-a-Mole"
     }
   },
-  {
-    "name": "2048 game",
-    "desc": "Dive into the addictive fun of our 2048 game, where you merge tiles to reach the elusive number, expertly crafted with HTML, CSS, and JavaScript!",
-    "image": "2048game",
-    "category": "Javascript",
-    "links": {
-      "view": "https://2048gamekhelo.netlify.app/",
-      "code": "https://github.com/SehajDeepSingh26/2048-Game"
-    }
-  },
+  
   {
     "name": "NewsKing Web",
     "desc": "Stay updated with NewsKing-Web, your go-to site for the latest news, seamlessly built with React.js for a smooth browsing experience!",
@@ -59,6 +40,27 @@
       "code": "https://github.com/SehajDeepSingh26/newsapp"
     }
   
+  },
+  {
+    "name": "2048 game",
+    "desc": "Dive into the addictive fun of our 2048 game, where you merge tiles to reach the elusive number, expertly crafted with HTML, CSS, and JavaScript!",
+    "image": "2048game",
+    "category": "Javascript",
+    "links": {
+      "view": "https://2048gamekhelo.netlify.app/",
+      "code": "https://github.com/SehajDeepSingh26/2048-Game"
+    }
+  },
+  
+  {
+    "name": "3D TShirt Designer Application",
+    "desc": "Explore our 3D T-shirt design platform, crafted with ReactJs, ThreeJs and TailwindCSS, to create your custom apparel in a dynamic, interactive environment.",
+    "image": "tshirtDesign",
+    "category": "FullStack",
+    "links": {
+      "view": "https://3-d-t-shirt-design.vercel.app/",
+      "code": "https://github.com/SehajDeepSingh26/3-D-T-shirt-Design"
+    }
   },
   {
     "name": "Paint App",
