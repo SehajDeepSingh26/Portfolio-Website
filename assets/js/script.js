@@ -1,3 +1,7 @@
+
+window.onload = () => {
+    document.body.style.zoom = "90%";
+};
 $(document).ready(function () {
 
     $('#menu').click(function () {
@@ -194,46 +198,45 @@ var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
 const srtop = ScrollReveal({
     origin: 'top',
     distance: '80px',
-    duration: 1000,
-    reset: true
+    duration: 800,
+    reset: false,
+    viewOffset: { top: 100, bottom: 0 } // reveal as section nears
 });
 
 /* SCROLL HOME */
-srtop.reveal('.home .content h3', { delay: 200 });
-srtop.reveal('.home .content p', { delay: 200 });
-srtop.reveal('.home .content .btn', { delay: 200 });
-
-srtop.reveal('.home .image', { delay: 400 });
-srtop.reveal('.home .linkedin', { interval: 600 });
-srtop.reveal('.home .github', { interval: 800 });
-srtop.reveal('.home .twitter', { interval: 1000 });
-srtop.reveal('.home .telegram', { interval: 600 });
-srtop.reveal('.home .instagram', { interval: 600 });
-srtop.reveal('.home .leetcode', { interval: 600 });
-srtop.reveal('.home .dev', { interval: 600 });
+srtop.reveal('.home .content h3');
+srtop.reveal('.home .content p');
+srtop.reveal('.home .content .btn');
+srtop.reveal('.home .image');
+srtop.reveal('.home .linkedin');
+srtop.reveal('.home .github');
+srtop.reveal('.home .twitter');
+srtop.reveal('.home .telegram');
+srtop.reveal('.home .instagram');
+srtop.reveal('.home .leetcode');
+srtop.reveal('.home .dev');
 
 /* SCROLL ABOUT */
-srtop.reveal('.about .content h3', { delay: 200 });
-srtop.reveal('.about .content .tag', { delay: 200 });
-srtop.reveal('.about .content p', { delay: 200 });
-srtop.reveal('.about .content .box-container', { delay: 200 });
-srtop.reveal('.about .content .resumebtn', { delay: 200 });
-
+srtop.reveal('.about .content h3');
+srtop.reveal('.about .content .tag');
+srtop.reveal('.about .content p');
+srtop.reveal('.about .content .box-container');
+srtop.reveal('.about .content .resumebtn');
 
 /* SCROLL SKILLS */
-srtop.reveal('.skills .container', { interval: 200 });
-srtop.reveal('.skills .container .bar', { delay: 400 });
+srtop.reveal('.skills .container');
+srtop.reveal('.skills .container .bar');
 
 /* SCROLL EDUCATION */
-srtop.reveal('.education .box', { interval: 200 });
+srtop.reveal('.education .box');
 
 /* SCROLL PROJECTS */
-srtop.reveal('.work .box', { interval: 200 });
+srtop.reveal('.work .box');
 
 /* SCROLL EXPERIENCE */
-srtop.reveal('.experience .timeline', { delay: 400 });
-srtop.reveal('.experience .timeline .container', { interval: 400 });
+srtop.reveal('.experience .timeline');
+srtop.reveal('.experience .timeline .container');
 
 /* SCROLL CONTACT */
-srtop.reveal('.contact .container', { delay: 400 });
-srtop.reveal('.contact .container .form-group', { delay: 400 });
+srtop.reveal('.contact .container');
+srtop.reveal('.contact .container .form-group');

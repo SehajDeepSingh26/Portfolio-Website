@@ -1,5 +1,25 @@
 [
   {
+    "name": "Convo AI",
+    "desc": "An AI driven Conversational bot to talk to different personalities. Try here",
+    "image": "convoAi",
+    "category": "ReactJs",
+    "links": {
+        "view": "https://convo-ai-kappa.vercel.app/",
+        "code": "https://github.com/SehajDeepSingh26/ConvoAI"
+    }
+    },
+    {
+    "name": "YouSummarizer",
+    "desc": "A YouTube Summarizer & Chatbot extracts key insights from videos, provides concise summaries, and answers queries interactively. Uses DeepSeek AI",
+    "image": "youSummarizer",
+    "category": "ReactJs",
+    "links": {
+        "view": "https://api-caller-three.vercel.app",
+        "code": "https://github.com/SehajDeepSingh26/YtVideoAnalyser"
+    }
+  },
+  {
     "name": "BrahmGyaani Solutions",
     "desc": "Explore BrahmGyaani Solutions to unlock a world of high-quality, personalized education that empowers you to achieve your academic and career goals.",
     "image": "BrahmGyaani",

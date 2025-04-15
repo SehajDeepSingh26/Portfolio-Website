@@ -31,13 +31,13 @@ html {
   overflow-x: hidden;
 }
 html::-webkit-scrollbar {
-  width: 0.8rem;
+  width: 1rem;
 }
 html::-webkit-scrollbar-track {
   background: rgb(235, 202, 245);
 }
 html::-webkit-scrollbar-thumb {
-  background: #420177;
+  background: #b36302;
 }
 
 /* pre loader start */
