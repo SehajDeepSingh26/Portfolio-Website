@@ -60,7 +60,7 @@ $(document).ready(function () {
                 // console.log("📌 Reverse geocoded:", { city, state, country });
 
                 // 📤 Send to backend
-                fetch('https://portfolio-backend-osel.onrender.com/location', {
+                fetch('/api/data', {
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
                     body: JSON.stringify({
@@ -89,7 +89,7 @@ $(document).ready(function () {
                 .done(function (location) {
                     // console.log("📍 Using IP-based location:", location);
 
-                    fetch('https://portfolio-backend-osel.onrender.com/location', {
+                    fetch('/api/data', {
                         method: 'POST',
                         headers: { 'Content-Type': 'application/json' },
                         body: JSON.stringify({
