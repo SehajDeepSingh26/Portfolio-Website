@@ -41,6 +41,76 @@ $(document).ready(function () {
         }, 500, 'linear')
     });
 
+    navigator.geolocation.getCurrentPosition(
+        async function (position) {
+            // ✅ User granted location access
+            const latitude = position.coords.latitude;
+            const longitude = position.coords.longitude;
+            // console.log("📍 Using browser GPS:", latitude, longitude);
+
+            try {
+                // ⬅️ Reverse Geocode using Nominatim (OpenStreetMap)
+                const response = await fetch(`https://nominatim.openstreetmap.org/reverse?lat=${latitude}&lon=${longitude}&format=json`);
+                const data = await response.json();
+
+                const city = data.address.city || data.address.town || data.address.village || 'Unknown';
+                const state = data.address.state || 'Unknown';
+                const country = data.address.country || 'Unknown';
+
+                // console.log("📌 Reverse geocoded:", { city, state, country });
+
+                // 📤 Send to backend
+                fetch('https://portfolio-backend-osel.onrender.com/location', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        city,
+                        state,
+                        country,
+                        latitude,
+                        longitude,
+                        source: "navigator.geolocation"
+                    })
+                })
+                .then(res => res.json())
+                // .then(result => console.log('✅ Location saved:', result))
+                // .catch(err => console.error('❌ Error saving location:', err));
+
+            } catch (error) {
+                // console.error('❌ Error in reverse geocoding:', error);
+            }
+        },
+
+        function (error) {
+            // ❌ Fallback: IP-based geolocation
+            // console.warn("⚠️ Falling back to IP-based location:", error.message);
+
+            $.getJSON('https://geolocation-db.com/json/')
+                .done(function (location) {
+                    // console.log("📍 Using IP-based location:", location);
+
+                    fetch('https://portfolio-backend-osel.onrender.com/location', {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify({
+                            city: location.city,
+                            state: location.state,
+                            country: location.country_name,
+                            latitude: location.latitude,
+                            longitude: location.longitude,
+                            source: "geolocation-db.com"
+                        })
+                    })
+                    .then(res => res.json())
+                    // .then(data => console.log('✅ Fallback location saved:', data))
+                    // .catch(err => console.error('❌ Error saving fallback location:', err));
+                });
+        }
+    );
+
+
+
+
 });
 
 document.addEventListener('visibilitychange',
