@@ -195,52 +195,150 @@ header .navbar ul li a:hover{
   background-color: #fff;
   color: #000;
 }
-.work .box-container{
+
+
+/* Container */
+.work .box-container {
   display: flex;
   flex-wrap: wrap;
-  gap:1.5rem;
-  margin: 2rem;
+  gap: 2rem;
+  justify-content: center;
+  width: 100%;
+  margin: 2rem 0;
 }
-.work .box-container .box{
-  flex:1 1 30rem;
-  border-radius: .5rem;
-  box-shadow: 0 .7rem 1rem rgba(0,0,0,.3);
-  position: relative;
-  overflow:hidden;
-  height:30rem;
+
+/* Each Box */
+.work .box-container .box {
+  flex: 0 0 calc(33.33% - 2rem); /* 3 per row always */
+  max-width: 450px;
+  height: 300px;
   background: #fff;
-  border: none;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.7rem 1rem rgba(0,0,0,0.3);
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-.work .box-container .box img{
-  height: 100%;
-  width:100%;
-  object-fit: cover;
+
+/* Hover effect for box */
+.work .box-container .box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 1rem 1.5rem rgba(0,0,0,0.35);
 }
-.work .box-container .box .content{
-  height: 100%;
-  width:100%;
+
+/* Image inside box */
+.work .box-container .box img {
+  width: 100%;
+  height: 75%;
+  object-fit: fit;
+  
+}
+
+/* Overlay Content */
+.work .box-container .box .content {
   position: absolute;
-  top:85%; left:0;
-  background:rgba(255, 255, 255, 0.9);
+  top: 80%; /* hidden below initially */
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 1); /* semi-transparent overlay */
+  color: #111010;
   display: flex;
   flex-direction: column;
-}
-.work .box-container .box .content .tag{
-  display: flex;
-  flex-direction: row;
   justify-content: space-between;
-  align-items: center;
-  height: 4.5rem;
-  width: 100%;
-  padding-left: 1rem;
+  padding: 1rem;
+  transition: top 0.3s ease;
+}
+
+/* Show overlay on hover */
+.work .box-container .box:hover .content {
+  top: 20%;
+}
+
+/* Tag Section */
+.work .box-container .box .content .tag {
   background: #ffd900;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
 }
-.work .box-container .box .content .tag h3{
-  font-size: 2rem;
+
+.work .box-container .box .content .tag h3 {
+  font-size: 1.5rem;
+  /* margin: 0; */
+  color: #111;
 }
-.work .box-container .box:hover .content{
-  top: 25%;
+
+/* Description */
+.work .box-container .box .content .desc p {
+  transform: translateY(-30px);
+  font-size: 1.3rem;
+  margin: 0;
+  flex: 1;
+  color: #000000;
 }
+
+/* Buttons */
+.work .box-container .box .content .btns {
+  /* display: flex;
+  gap: 0.5rem; */
+}
+.work .box-container .box .content .btns a {
+  transform: translateY(-40px);
+  flex: 1;
+  text-align: center;
+  line-height: 2rem;
+  background: #374151;       /* dark base */
+  color: #fff;
+  font-weight: 600;
+  font-size: 1.2rem;
+  text-decoration: none;
+  border-radius: 0.5rem;
+  padding: 0.5rem 0.75rem;
+  box-shadow: 6px 6px 0px 0px rgba(0,0,0,0.4); /* neobrutalist shadow */
+  border: 2px solid #222;    /* optional border for more punch */
+  transition: all 0.2s ease;
+}
+
+.work .box-container .box .content .btns a:hover {
+  background: #06f0a2;       /* bright accent on hover */
+  color: #111;
+  transform: translate(-2px, -42px); /* slight “lift” effect in 2D */
+}
+
+/* Responsive tweak: ensures 3 per row on large screens */
+@media (max-width: 1200px) {
+  .work .box-container .box {
+    flex: 0 0 calc(33.33% - 2rem);
+  }
+}
+
+@media (max-width: 900px) {
+  .work .box-container .box {
+    flex: 0 0 calc(50% - 1.5rem);
+    max-width: 350px;
+  }
+}
+
+/* ✅ Mobile Fix: Always 1 per row, no overlap */
+@media (max-width: 600px) {
+  .work .box-container {
+    flex-direction: row;     /* stack vertically */
+    align-items: center;        /* center cards */
+  }
+
+  .work .box-container .box {
+    flex: 0 0 100%;
+    max-width: 90%;             /* give some margin from edges */
+    margin-bottom: 1.5rem;      /* spacing between cards */
+  }
+}
+
+
+
+
+
+
 .work .desc {
   margin: 2rem;
   display: flex;
@@ -277,9 +375,9 @@ header .navbar ul li a:hover{
   .work .box-container{
     margin: 0rem;
   }
-  .work .box-container .grid-item .box{
+  /* .work .box-container .grid-item .box{
     width: 95% !important;
-  }
+  } */
 }
 
 /* back to home button */

@@ -1,118 +1,142 @@
 [
-  {
-    "name": "Convo AI",
-    "desc": "An AI driven Conversational bot to talk to different personalities. Try here",
-    "image": "convoAi",
-    "category": "ReactJs",
-    "links": {
-        "view": "https://convo-ai-kappa.vercel.app/",
-        "code": "https://github.com/SehajDeepSingh26/ConvoAI"
-    }
+    {
+        "name": "Convo AI",
+        "desc": "ConvoAI – A platform to create and talk with intelligent AI voice agents, including custom personalities. Try here.",
+        "image": "convoAi",
+        "category": "ReactJs",
+        "links": {
+            "view": "https://convo-ai-agent.vercel.app/",
+            "code": "https://github.com/SehajDeepSingh26/ConvoAI"
+        }
     },
     {
-    "name": "YouSummarizer",
-    "desc": "A YouTube Summarizer & Chatbot extracts key insights from videos, provides concise summaries, and answers queries interactively. Uses DeepSeek AI",
-    "image": "youSummarizer",
-    "category": "ReactJs",
-    "links": {
-        "view": "https://api-caller-three.vercel.app",
-        "code": "https://github.com/SehajDeepSingh26/YtVideoAnalyser"
+        "name": "Rydon",
+        "desc": "Rydon: A real-time ride-hailing app connecting riders and drivers seamlessly integrating Google Maps API and Socket.IO.",
+        "image": "rydon",
+        "category": "ReactJs",
+        "links": {
+            "view": "https://github.com/SehajDeepSingh26/Rydon",
+            "code": "https://github.com/SehajDeepSingh26/Rydon"
+        }
+    },
+    {
+        "name": "HeartLine AI",
+        "desc": "An AI voice calling platform that instantly connects users with personalized agents over real phone calls, powered by BlandAI.",
+        "image": "HeartlineAI",
+        "category": "ReactJs",
+        "links": {
+            "view": "https://api-caller-three.vercel.app/",
+            "code": "https://github.com/SehajDeepSingh26/Heartline-AI"
+        }
+    },
+    {
+        "name": "YouSummarizer",
+        "desc": "A YouTube Summarizer & Chatbot extracts key insights from videos, provides concise summaries, and answers queries interactively as a AI chat-Bot. Uses DeepSeek AI",
+        "image": "youSummarizer",
+        "category": "ReactJs",
+        "links": {
+            "view": "https://yt-video-analyser.vercel.app/",
+            "code": "https://github.com/SehajDeepSingh26/YtVideoAnalyser"
+        }
+    },
+    {
+        "name": "BrahmGyaani Solutions",
+        "desc": "Explore BrahmGyaani Solutions to unlock a world of high-quality, personalized education that empowers you to achieve your academic and career goals.",
+        "image": "BrahmGyaani",
+        "category": "FullStack",
+        "links": {
+            "view": "https://brahmgyaani.netlify.app/",
+            "code": "https://github.com/SehajDeepSingh26/brahmGyaani"
+        }
+    },
+    {
+        "name": "TypeAhead Suggestor",
+        "desc": "The Typeahead Suggestor project enhances Prefix based search by offering real-time word autocompletion using a Trie data structure.",
+        "image": "typeahead-suggestor",
+        "category": "ReactJs",
+        "links": {
+            "view": "https://typeahead-suggester.netlify.app/",
+            "code": "https://github.com/SehajDeepSingh26/TypeAhead-Suggester"
+        }
+    },
+    {
+        "name": "Podcastify",
+        "desc": "Podcastify converts web content into dynamic AI-generated podcasts with multiple character voices for an immersive listening experience.",
+        "image": "Podcastify",
+        "category": "ReactJs",
+        "links": {
+            "view": "https://github.com/SehajDeepSingh26/Podcastify",
+            "code": "https://github.com/SehajDeepSingh26/Podcastify"
+        }
+    },
+    {
+        "name": "ACM-BVP Website",
+        "desc": "Welcome to the ACM-BVP Society website, your hub for event summaries and team insights, connecting you with our vibrant community.",
+        "image": "acmbvp",
+        "category": "ReactJs",
+        "links": {
+            "view": "https://bvcoe.acm.org/",
+            "code": "https://github.com/SehajDeepSingh26/ACM-BVP-website"
+        }
+    },
+    {
+        "name": "Whack a Mole",
+        "desc": "Get ready to smash some moles and rack up points in our fun-filled Whack-a-Mole game, built with HTML, CSS, and JavaScript magic!",
+        "image": "whackamole",
+        "category": "Javascript",
+        "links": {
+            "view": "https://whackamolekhelo.netlify.app/",
+            "code": "https://github.com/SehajDeepSingh26/Whack-a-Mole"
+        }
+    },
+    {
+        "name": "3D TShirt Designer Application",
+        "desc": "Explore our 3D T-shirt design platform, crafted with ReactJs, ThreeJs and TailwindCSS, to create your custom apparel in a dynamic, interactive environment.",
+        "image": "tshirtDesign",
+        "category": "FullStack",
+        "links": {
+            "view": "https://3-d-t-shirt-design.vercel.app/",
+            "code": "https://github.com/SehajDeepSingh26/3-D-T-shirt-Design"
+        }
+    },
+    {
+        "name": "2048 game",
+        "desc": "Dive into the addictive fun of our 2048 game, where you merge tiles to reach the elusive number, expertly crafted with HTML, CSS, and JavaScript!",
+        "image": "2048game",
+        "category": "Javascript",
+        "links": {
+            "view": "https://2048gamekhelo.netlify.app/",
+            "code": "https://github.com/SehajDeepSingh26/2048-Game"
+        }
+    },
+    {
+        "name": "Paint App",
+        "desc": "Unleash your creativity with our Paint App, crafted using HTML, CSS, and JavaScript for a seamless and interactive drawing experience!",
+        "image": "paintApp",
+        "category": "Javascript",
+        "links": {
+            "view": "https://paint-Web.netlify.app",
+            "code": "https://github.com/sehajdeepsingh26"
+        }
+    },
+    {
+        "name": "NewsKing Web",
+        "desc": "Stay updated with NewsKing-Web, your go-to site for the latest news, seamlessly built with React.js for a smooth browsing experience!",
+        "image": "NewsKing-Web",
+        "category": "ReactJs",
+        "links": {
+            "view": "https://newsKing-web.netlify.app",
+            "code": "https://github.com/SehajDeepSingh26/newsapp"
+        }
+    },
+    {
+        "name": "Miusify",
+        "desc": "Developed a spotify clone",
+        "image": "SpotifyClone",
+        "category": "WebDev",
+        "links": {
+            "view": "https://miusify.netlify.app/",
+            "code": "https://github.com/sehajdeepsingh26/spotify-clone"
+        }
     }
-  },
-  {
-    "name": "BrahmGyaani Solutions",
-    "desc": "Explore BrahmGyaani Solutions to unlock a world of high-quality, personalized education that empowers you to achieve your academic and career goals.",
-    "image": "BrahmGyaani",
-    "category": "FullStack",
-    "links": {
-      "view": "https://brahmgyaani.netlify.app/",
-      "code": "https://github.com/SehajDeepSingh26/brahmGyaani"
-    }
-  },
-  {
-    "name": "ACM-BVP Website",
-    "desc": "Welcome to the ACM-BVP Society website, your hub for event summaries and team insights, connecting you with our vibrant community.",
-    "image": "acmbvp",
-    "category": "ReactJs",
-    "links": {
-      "view": "https://bvcoe.acm.org/",
-      "code": "https://github.com/SehajDeepSingh26/ACM-BVP-website"
-    }
-  },
-  {
-    "name": "TypeAhead Suggestor",
-    "desc": "The Typeahead Suggestor project enhances user input by offering real-time word autocompletion using a Trie data structure.",
-    "image": "typeahead",
-    "category": "ReactJs",
-    "links": {
-      "view": "https://typeahead-suggester.netlify.app/",
-      "code": "https://github.com/SehajDeepSingh26/TypeAhead-Suggester"
-    }
-  },
-  {
-    "name": "Whack a Mole",
-    "desc": "Get ready to smash some moles and rack up points in our fun-filled Whack-a-Mole game, built with HTML, CSS, and JavaScript magic!",
-    "image": "whackamole",
-    "category": "Javascript",
-    "links": {
-      "view": "https://whackamolekhelo.netlify.app/",
-      "code": "https://github.com/SehajDeepSingh26/Whack-a-Mole"
-    }
-  },
-  
-  {
-    "name": "NewsKing Web",
-    "desc": "Stay updated with NewsKing-Web, your go-to site for the latest news, seamlessly built with React.js for a smooth browsing experience!",
-    "image": "NewsKing-Web",
-    "category": "ReactJs",
-    "links": {
-      "view": "https://newsKing-web.netlify.app",
-      "code": "https://github.com/SehajDeepSingh26/newsapp"
-    }
-  
-  },
-  
-  {
-    "name": "3D TShirt Designer Application",
-    "desc": "Explore our 3D T-shirt design platform, crafted with ReactJs, ThreeJs and TailwindCSS, to create your custom apparel in a dynamic, interactive environment.",
-    "image": "tshirtDesign",
-    "category": "FullStack",
-    "links": {
-      "view": "https://3-d-t-shirt-design.vercel.app/",
-      "code": "https://github.com/SehajDeepSingh26/3-D-T-shirt-Design"
-    }
-  },
-  
-  {
-    "name": "2048 game",
-    "desc": "Dive into the addictive fun of our 2048 game, where you merge tiles to reach the elusive number, expertly crafted with HTML, CSS, and JavaScript!",
-    "image": "2048game",
-    "category": "Javascript",
-    "links": {
-      "view": "https://2048gamekhelo.netlify.app/",
-      "code": "https://github.com/SehajDeepSingh26/2048-Game"
-    }
-  },
-  {
-    "name": "Paint App",
-    "desc": "Unleash your creativity with our Paint App, crafted using HTML, CSS, and JavaScript for a seamless and interactive drawing experience!",
-    "image": "paintApp",
-    "category": "Javascript",
-    "links": {
-      "view": "https://paint-Web.netlify.app",
-      "code": "https://github.com/sehajdeepsingh26"
-    }
-  },
-  
-  {
-    "name": "Miusify",
-    "desc": "Developed a spotify clone",
-    "image": "SpotifyClone",
-    "category": "WebDev",
-    "links": {
-      "view": "https://miusify.netlify.app/",
-      "code": "https://github.com/sehajdeepsingh26/spotify-clone"
-    }
-  }
-  
 ]

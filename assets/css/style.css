@@ -363,7 +363,7 @@ header .navbar ul li a:hover {
   flex: 1 1 35rem;
 }
 .about .row .image img {
-  margin: 4rem;
+  /* margin: 4rem; */
   width: 30rem;
   height: auto;
   border-radius: 5%;
@@ -449,7 +449,7 @@ header .navbar ul li a:hover {
   }
   .about .row {
     padding: 0.5rem;
-    margin-bottom: 7rem;
+    /* margin-bottom: 7rem; */
   }
   .about .row .content {
     padding: 1rem;
@@ -671,7 +671,7 @@ header .navbar ul li a:hover {
 .work .box-container .box img {
   height: 100%;
   width: 100%;
-  object-fit: cover;
+  object-fit: contain;
 }
 .work .box-container .box .content {
   height: 100%;
